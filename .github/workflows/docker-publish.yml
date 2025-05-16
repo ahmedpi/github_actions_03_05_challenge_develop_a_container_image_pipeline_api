@@ -27,7 +27,6 @@ jobs:
     uses: ahmedpi/github_actions_03_05_integration/.github/workflows/python-app.yml@main
     permissions:
       contents: read
-      checks: write
       
   build:
     needs: [integration]
